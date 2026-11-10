@@ -79,3 +79,13 @@
   height: 30px;
   object-fit: contain;
 }
+
+/* ---------- Footer opening hours: no dividers, rows level with the link lists ---------- */
+.gt-footer-widget-wrapper .gt-footer-widget-items .gt-footer-content .opening-hours-list .opening-list li {
+  border-bottom: 0;
+  padding: 0;
+}
+
+.gt-footer-widget-wrapper .gt-footer-widget-items .gt-footer-content .opening-hours-list .opening-list li:not(:last-child) {
+  margin-bottom: 20px;
+}

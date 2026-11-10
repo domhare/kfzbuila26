@@ -11,8 +11,9 @@
     <meta name="description"
         content="Service bei Parts & More in Augsburg: Inspektion, Bremsen, Reifen, Klima-Service, HU/AU und mehr.">
     <!-- ======== Page title ============ -->
-    <title>Service – Parts & More Kfz-Mietwerkstatt</title>
+    <title>Service – Kfz-Service Buila</title>
     <!--<< Favcion >>-->
+    <!--<< Bootstrap min.css >>-->
     <link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
@@ -28,7 +29,6 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/img/favicon/manifest.json">
-    <!--<< Bootstrap min.css >>-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--<< All Min Css >>-->
     <link rel="stylesheet" href="assets/css/all.min.css">
@@ -45,7 +45,8 @@
     <!--<< Icomon.css >>-->
     <link rel="stylesheet" href="assets/css/icomon.css">
     <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css?v=2">
+    <link rel="stylesheet" href="assets/css/custom.css?v=2">
 </head>
 
 <body>
@@ -126,8 +127,8 @@
                 <div class="offcanvas__content">
                     <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                         <div class="offcanvas__logo">
-                            <a href="index.html">
-                                <img src="assets/img/logo/black-logo-2.svg" alt="logo-img">
+                            <a href="index-1.html">
+                                <img src="assets/img/meisterhaftlogo.svg" alt="KFZ-Service Buila – Meisterhaft">
                             </a>
                         </div>
                         <div class="offcanvas__close">
@@ -137,19 +138,20 @@
                         </div>
                     </div>
                     <p class="text d-none d-xl-block">
-                        Ihre Kfz-Mietwerkstatt in Augsburg: Hebebühne mieten, Profi-Werkzeug nutzen und das eigene Auto
-                        selbst reparieren – mit Ersatzteilen direkt vor Ort.
+                        Wir sind eine professionelle Kfz-Meisterwerkstatt für alle Marken PKW und LLKW in Augsburg.
                     </p>
                     <div class="mobile-menu fix mb-3"></div>
                     <div class="offcanvas__contact">
-                        <h4>Kontakt</h4>
+                        <h4>Kontaktinfo</h4>
                         <ul>
                             <li class="d-flex align-items-center">
                                 <div class="offcanvas__contact-icon">
                                     <i class="fal fa-map-marker-alt"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Dillinger Weg 8-10, 86156 Augsburg</a>
+                                    <a target="_blank"
+                                        href="https://www.google.com/maps/search/?api=1&amp;query=Dillinger+Weg+8-10%2C+86156+Augsburg">Dillinger
+                                        Weg 8-10, 86156 Augsburg</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -157,8 +159,7 @@
                                     <i class="fal fa-envelope"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="mailto:info@example.com"><span
-                                            class="mailto:info@example.com">info@example.com</span></a>
+                                    <a href="mailto:info@kfzservice-buila.de">info@kfzservice-buila.de</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -166,7 +167,8 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mo - Fr, 9:00 - 18:00 Uhr</a>
+                                    <a href="index-1.html#servicezeiten">Mo - Do: 09:00 - 12:00 / 13:00 - 18:00 Uhr<br>Fr: 09:00 -
+                                        12:00 / 13:00 - 15:30 Uhr</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -174,7 +176,7 @@
                                     <i class="far fa-phone"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a href="tel:+4982145536636">0821 455 366 36</a>
+                                    <a href="tel:+4982145536636">0821 455-366-36</a>
                                 </div>
                             </li>
                         </ul>
@@ -183,14 +185,14 @@
                         </div>
                         <a href="contact.php" class="gt-theme-btn">
                             <span class="gt-text-btn">
-                                <span class="gt-text-2">JETZT ANFRAGEN</span>
+                                <span class="gt-text-2">SERVICEANFRAGE</span>
                             </span>
                         </a>
                         <div class="social-icon d-flex align-items-center">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                             <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
                         </div>
                     </div>
                 </div>
@@ -200,240 +202,133 @@
     <div class="offcanvas__overlay"></div>
 
     <!-- Header Section Start -->
-    <header class="header-section-2">
-        <div id="header-sticky" class="header-1 header-2">
-            <div class="container-fluid">
-                <div class="mega-menu-wrapper">
-                    <div class="header-main">
-                        <div class="header-left">
-                            <div class="logo">
-                                <a href="index.html" class="header-logo">
-                                    <img src="assets/img/logo/white-logo.svg" alt="logo-img">
-                                </a>
-                                <a href="index.html" class="header-logo-2">
-                                    <img src="assets/img/logo/black-logo-2.svg" alt="logo-img">
-                                </a>
+    <header id="header-sticky" class="header-1 bg-theme">
+        <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+                <div class="header-main">
+                    <div class="logo">
+                        <a href="index.html" class="header-logo1">
+                            <img src="assets/img/meisterhaftlogo.svg" alt="KFZ-Service Buila – Meisterhaft"
+                                class="logo-meisterhaft">
+                        </a>
+                    </div>
+                    <div class="header-main-right-item">
+                        <div class="head-top-wrapper">
+                            <ul>
+                                <li>
+                                    Dillinger Weg 8-10, 86156 Augsburg
+                                </li>
+                                <li>
+                                    /
+                                </li>
+                                <li>
+                                    Servicezeiten: Mo - Do: 09:00 - 18:00 Uhr, Fr: 09:00 - 15:30 Uhr
+                                </li>
+                            </ul>
+                            <div class="gt-social-icon d-flex align-items-center">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
                             </div>
+                        </div>
+                        <div class="header-right-area">
                             <div class="mean__menu-wrapper">
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li>
+                                            <li class="active">
                                                 <a href="index.html">Start</a>
                                             </li>
-                                            <li>
-                                                <a href="werkstatt.html">Werkstatt</a>
-                                            </li>
-                                            <li class="has-dropdown menu-thumb">
+                                            <li class="has-mega">
                                                 <a href="service.html">
-                                                    Service
+                                                    Unser Service
                                                 </a>
-                                                <ul class="submenu gt-mega-icons">
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-tire"></i></span>
-                                                            <span class="gt-mega-text"><strong>Räder und
-                                                                    Reifen</strong><small>Montage, Wuchten &
-                                                                    Wechsel</small></span>
-                                                        </a>
+                                                <ul class="submenu mega-menu">
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/raeder-reifen.svg" alt=""> --></span>Räder
+                                                            und Reifen</a></li>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/auspuff.svg" alt=""> --></span>Auspuff-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-pipe-section"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Auspuff-Service</strong><small>Prüfen,
-                                                                    reparieren & tauschen</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/batterie.svg" alt=""> --></span>Batterie-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-car-battery"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Batterie-Service</strong><small>Testen,
-                                                                    laden & ersetzen</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/autoglas.svg" alt=""> --></span>Autoglasreparatur</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-car-side"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Autoglasreparatur</strong><small>Steinschlag
-                                                                    & Scheibentausch</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/bremsen.svg" alt=""> --></span>Bremsen-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-brake-warning"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Bremsen-Service</strong><small>Beläge,
-                                                                    Scheiben & Flüssigkeit</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/motordiagnose.svg" alt=""> --></span>Motordiagnose</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-laptop-medical"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Motordiagnose</strong><small>Fehlerspeicher
-                                                                    auslesen</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/getriebespuelung.svg" alt=""> --></span>Automatikgetriebespülung</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-gears"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Automatikgetriebespülung</strong><small>Getriebeöl
-                                                                    komplett erneuern</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/reifen-einlagerung.svg" alt=""> --></span>Reifen-Einlagerung</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-warehouse"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Reifen-Einlagerung</strong><small>Sicher
-                                                                    & sauber eingelagert</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/oel.svg" alt=""> --></span>Öl-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-oil-can"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Öl-Service</strong><small>Motoröl
-                                                                    & Filter wechseln</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/klima.svg" alt=""> --></span>Klima-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-snowflake"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Klima-Service</strong><small>Prüfen,
-                                                                    reinigen & befüllen</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/inspektion.svg" alt=""> --></span>Inspektion</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-clipboard-list"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Inspektion</strong><small>Wartung
-                                                                    nach Herstellervorgabe</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/unfallinstandsetzung.svg" alt=""> --></span>Unfallinstandsetzung</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-car-crash"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Unfallinstandsetzung</strong><small>Karosserie
-                                                                    & Lack</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/achsvermessung.svg" alt=""> --></span>Achsvermessung</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-ruler-horizontal"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Achsvermessung</strong><small>Spur
-                                                                    & Sturz einstellen</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/fahrwerk.svg" alt=""> --></span>Fahrwerk-Service</a>
                                                     </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-car-tilt"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Fahrwerk-Service</strong><small>Stoßdämpfer,
-                                                                    Federn & Achsen</small></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="anfrage.html#huauanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-clipboard-check"></i></span>
-                                                            <span class="gt-mega-text"><strong>HU (mit integrierter
-                                                                    AU)</strong><small>Montags & donnerstags ab 15
-                                                                    Uhr</small></span>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="anfrage.html#serviceanfrage">
-                                                            <span class="gt-mega-icon"><i
-                                                                    class="fa-solid fa-suitcase-rolling"></i></span>
-                                                            <span
-                                                                class="gt-mega-text"><strong>Urlaubs-Check</strong><small>Sicher
-                                                                    in den Urlaub starten</small></span>
-                                                        </a>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/hu-au.svg" alt=""> --></span>HU
+                                                            (mit integrierter AU)</a></li>
+                                                    <li><a href="service-details.html"><span
+                                                                class="mega-icon"><!-- <img src="assets/img/icons/leistungen/urlaubs-check.svg" alt=""> --></span>Urlaubs-Check</a>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="has-dropdown d-xl-none">
-                                                <a href="service.html" class="border-none">
-                                                    Service
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="anfrage.html#serviceanfrage">Räder und Reifen</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Auspuff-Service</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Batterie-Service</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Autoglasreparatur</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Bremsen-Service</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Motordiagnose</a></li>
-                                                    <li><a
-                                                            href="anfrage.html#serviceanfrage">Automatikgetriebespülung</a>
-                                                    </li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Reifen-Einlagerung</a>
-                                                    </li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Öl-Service</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Klima-Service</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Inspektion</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Unfallinstandsetzung</a>
-                                                    </li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Achsvermessung</a></li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Fahrwerk-Service</a></li>
-                                                    <li><a href="anfrage.html#huauanfrage">HU (mit integrierter AU)</a>
-                                                    </li>
-                                                    <li><a href="anfrage.html#serviceanfrage">Urlaubs-Check</a></li>
-                                                </ul>
+                                            <li>
+                                                <a href="about.html">Über uns</a>
                                             </li>
                                             <li>
-                                                <a href="teileshop.html">Teileshop</a>
+                                                <a href="#aktionen">Aktionen</a>
                                             </li>
                                             <li>
-                                                <a href="preise.html">Preise</a>
-                                            </li>
-                                            <li>
-                                                <a href="kontakt.html">Kontakt</a>
+                                                <a href="contact.html">Kontakt</a>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
-                        </div>
-                        <div class="header-right d-flex justify-content-end align-items-center">
-                            <div class="header-right-icon">
-                                <a href="#" class="main-header__search search-toggler">
-                                    <i class="fa-regular fa-magnifying-glass"></i>
+                            <div class="header-right d-flex justify-content-end align-items-center">
+                                <div class="header-right-icon">
+                                    <a href="https://www.google.com/maps/search/?api=1&amp;query=Dillinger+Weg+8-10%2C+86156+Augsburg"
+                                        class="cart-icon" target="_blank" rel="noopener"
+                                        aria-label="Anfahrt auf Google Maps"><i
+                                            class="fa-solid fa-location-dot"></i></a>
+                                    <a href="#" class="main-header__search search-toggler">
+                                        <i class="fa-regular fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+                                <a href="serviceanfrage.html" class="gt-theme-btn">
+                                    <span class="gt-text-btn">
+                                        <span class="gt-text-2">SERVICEANFRAGE</span>
+                                    </span>
                                 </a>
-                                <a href="anfrage.html" class="cart-icon" title="Anfrage" aria-label="Anfrage"><i
-                                        class="fa-solid fa-comment-dots"></i></a>
-                                <a href="https://www.google.com/maps/search/?api=1&query=Parts+%26+More+Augsburg"
-                                    target="_blank" rel="noopener" class="cart-icon" title="Anfahrt"
-                                    aria-label="Anfahrt"><i class="fa-solid fa-location-dot"></i></a>
-                            </div>
-
-                            <div class="header__hamburger d-xl-none my-auto">
-                                <div class="sidebar__toggle">
-                                    <div class="header-bar">
-                                        <span></span>
-                                        <span></span>
+                                <div class="header__hamburger d-xl-none my-auto">
+                                    <div class="sidebar__toggle">
+                                        <div class="header-bar">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -449,8 +344,8 @@
         <div class="search-popup__overlay search-toggler"></div>
         <div class="search-popup__content">
             <form role="search" method="get" class="search-popup__form" action="#">
-                <input type="text" id="search" name="search" placeholder="Suchen ...">
-                <button type="submit" aria-label="search submit" class="search-btn">
+                <input type="text" id="search" name="search" placeholder="Hier suchen...">
+                <button type="submit" aria-label="Suche absenden" class="search-btn">
                     <span><i class="fa-regular fa-magnifying-glass"></i></span>
                 </button>
             </form>
@@ -491,7 +386,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-01.jpg" alt="Räder und Reifen">
+                            <img src="assets/img/service/service-01.jpg" alt="Räder und Reifen">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -513,7 +408,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-02.jpg" alt="Auspuff-Service">
+                            <img src="assets/img/service/service-02.jpg" alt="Auspuff-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -535,7 +430,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-03.jpg" alt="Batterie-Service">
+                            <img src="assets/img/service/service-03.jpg" alt="Batterie-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -557,7 +452,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-04.jpg" alt="Autoglasreparatur">
+                            <img src="assets/img/service/service-04.jpg" alt="Autoglasreparatur">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -579,7 +474,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-05.jpg" alt="Bremsen-Service">
+                            <img src="assets/img/service/service-05.jpg" alt="Bremsen-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -601,7 +496,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-06.jpg" alt="Motordiagnose">
+                            <img src="assets/img/service/service-06.jpg" alt="Motordiagnose">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -623,7 +518,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-01.jpg" alt="Automatikgetriebespülung">
+                            <img src="assets/img/service/service-01.jpg" alt="Automatikgetriebespülung">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -645,7 +540,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-02.jpg" alt="Reifen-Einlagerung">
+                            <img src="assets/img/service/service-02.jpg" alt="Reifen-Einlagerung">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -667,7 +562,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-03.jpg" alt="Öl-Service">
+                            <img src="assets/img/service/service-03.jpg" alt="Öl-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -689,7 +584,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-04.jpg" alt="Klima-Service">
+                            <img src="assets/img/service/service-04.jpg" alt="Klima-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -711,7 +606,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-05.jpg" alt="Inspektion">
+                            <img src="assets/img/service/service-05.jpg" alt="Inspektion">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -733,7 +628,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-06.jpg" alt="Unfallinstandsetzung">
+                            <img src="assets/img/service/service-06.jpg" alt="Unfallinstandsetzung">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -755,7 +650,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-01.jpg" alt="Achsvermessung">
+                            <img src="assets/img/service/service-01.jpg" alt="Achsvermessung">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -777,7 +672,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-02.jpg" alt="Fahrwerk-Service">
+                            <img src="assets/img/service/service-02.jpg" alt="Fahrwerk-Service">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -799,7 +694,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-03.jpg" alt="HU (mit integrierter AU)">
+                            <img src="assets/img/service/service-03.jpg" alt="HU (mit integrierter AU)">
                             <a href="anfrage.html#huauanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -821,7 +716,7 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="gt-service-card-items mt-0">
                         <div class="gt-thumb">
-                            <img src="assets/img/home-1/service/service-04.jpg" alt="Urlaubs-Check">
+                            <img src="assets/img/service/service-04.jpg" alt="Urlaubs-Check">
                             <a href="anfrage.html#serviceanfrage" class="gt-link-btn">
                                 ANFRAGEN <i class="icon-icon-3"></i>
                             </a>
@@ -1135,157 +1030,199 @@
     </section>
 
     <!-- GT Footer Section Start -->
-    <footer class="gt-footer-section bg-cover fix" style="background-image: url('assets/img/footer-bg.jpg');">
+    <footer class="gt-footer-section footer-bg fix">
         <div class="container">
-            <div class="gt-footer-widget-wrapper">
+            <div class="gt-newsletter-wrapper">
+                <a href="index.html" class="gt-footer-logo wow fadeInUp" data-wow-delay=".3s">
+                    <img src="assets/img/logo/white-logo.svg" alt="img">
+                </a>
+                <div class="gt-cta-content-wrapper wow fadeInUp" data-wow-delay=".5s">
+                    <div class="gt-content">
+                        <h3>Unser Newsletter</h3>
+                        <p>Abonnieren Sie unsere Neuigkeiten</p>
+                    </div>
+                    <div class="search-widget">
+                        <input type="email" id="email" placeholder="Ihre E-Mail-Adresse">
+                        <button type="submit" class="gt-theme-btn">
+                            <span class="gt-text-btn">
+                                <span class="gt-text-2">JETZT ABONNIEREN</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="gt-footer-widget-wrapper gt-widget-wrapper-3">
                 <div class="row justify-content-between">
-                    <div class="col-xl-5 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="col-xl-4 col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".2s">
                         <div class="gt-footer-widget-items">
                             <div class="gt-widget-head">
-                                <a href="index.html" class="gt-footer-logo">
-                                    <img src="assets/img/logo/white-logo.svg" alt="img">
-                                </a>
+                                <h3>Kontakt</h3>
                             </div>
                             <div class="gt-footer-content">
                                 <p>
-                                    It is a long established fact that a reader will be distracted the road readable
-                                    content of a page when looking at layout.
+                                    Dillinger Weg 8-10, <br> 86156 Augsburg
                                 </p>
-                                <div class="opening-hours-list">
-                                    <h4>Opening Hours</h4>
-                                    <ul class="opening-list">
-                                        <li>
-                                            Saturday - Tuesday
-                                            <span>9:00 AM to 5:00 PM</span>
-                                        </li>
-                                        <li>
-                                            Wednesday - Friday
-                                            <span>10:00 AM to 4:00 PM</span>
-                                        </li>
-                                        <li>
-                                            Sunday
-                                            <span>Off Day</span>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul class="gt-list">
+                                    <li>
+                                        <a href="mailto:info@kfzservice-buila.de">
+                                            info@kfzservice-buila.de
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+4982145536636">0821-455-366-36</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="gt-footer-widget-items">
-                                    <div class="gt-widget-head">
-                                        <h3>Useful Links</h3>
-                                    </div>
-                                    <ul class="gt-list-area">
-                                        <li>
-                                            <a href="about.html">
-                                                About Us
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service.html">
-                                                Service
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="event.html">
-                                                Our Event
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="news.html">
-                                                Our Blog
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                    <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div class="gt-footer-widget-items">
+                            <div class="gt-widget-head">
+                                <h3>Unser Service</h3>
                             </div>
-                            <div class="col-xl-4 ps-lg-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="gt-footer-widget-items">
-                                    <div class="gt-widget-head">
-                                        <h3>Join Our Club </h3>
-                                    </div>
-                                    <ul class="gt-list-area">
-                                        <li>
-                                            <a href="service-details.html">
-                                                Club History
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Mumbership Plan
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Quality & Safety Count
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Facts and Figures
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 ps-xxl-5 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="gt-footer-widget-items">
-                                    <div class="gt-widget-head">
-                                        <h3>Useful Links</h3>
-                                    </div>
-                                    <ul class="gt-list-area">
-                                        <li>
-                                            <a href="service-details.html">
-                                                Private Coaching
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Classic Motorcycle
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Strenuous Bikers
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="service-details.html">
-                                                Adventure Riding
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <ul class="gt-list-area">
+                                <li>
+                                    <a href="service-details.html">
+                                        Inspektion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">
+                                        Bremsen-Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">
+                                        Klima-Service
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-details.html">
+                                        Motordiagnose
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="">
-                            <div class="gt-footer-newsletter wow fadeInUp" data-wow-delay=".3s">
-                                <div class="gt-newsletter-content">
-                                    <h3>Subscribe Newsletter</h3>
-                                </div>
-                                <form action="#">
-                                    <div class="form-clt">
-                                        <input type="text" name="email" id="email" placeholder="Your Email Address">
-                                        <button type="submit" class="gt-theme-btn">
-                                            <span class="gt-text-btn">
-                                                <span class="gt-text-2">SUBSCRIBE NOW</span>
-                                            </span>
-                                        </button>
+                    </div>
+                    <div class="col-xl-2 ps-xxl-5 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="gt-footer-widget-items">
+                            <div class="gt-widget-head">
+                                <h3>Nützliche Links</h3>
+                            </div>
+                            <ul class="gt-list-area">
+                                <li>
+                                    <a href="about.html">
+                                        Über uns
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#aktionen">
+                                        Aktionen
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Serviceanfrage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Kontakt
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 ps-xxl-5 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                        <div class="gt-footer-widget-items">
+                            <div class="gt-widget-head">
+                                <h3>Galerie</h3>
+                            </div>
+                            <div class="footer-gallery">
+                                <div class="gallery-wrap">
+                                    <div class="gallery-item">
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-1.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-1.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-2.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-2.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-3.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-3.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                </form>
+                                    <div class="gallery-item">
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-4.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-4.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-5.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-5.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="thumb">
+                                            <a href="assets/img/home-3/footer/gallery-6.jpg" class="img-popup">
+                                                <img src="assets/img/home-3/footer/gallery-6.jpg" alt="Galeriebild">
+                                                <div class="icon">
+                                                    <i class="far fa-plus"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom wow fadeInUp" data-wow-delay=".3s">
-            <p>© 2025 <b>Carofix</b>. All Rights Reserved.</p>
+        <div class="footer-bottom footer-bottom-3 wow fadeInUp" data-wow-delay=".3s">
+            <div class="container">
+                <div class="gt-footer-wrapper-3">
+                    <p>© 2025 <b>KFZ-Service Buila</b>. Alle Rechte vorbehalten.</p>
+                    <ul class="gt-bottom-list">
+                        <li>
+                            <a href="contact.html">AGB</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Datenschutz</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Kontakt</a>
+                        </li>
+                    </ul>
+                    <div class="gt-social-icon d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </footer>
 
     <!--<< All JS Plugins >>-->
